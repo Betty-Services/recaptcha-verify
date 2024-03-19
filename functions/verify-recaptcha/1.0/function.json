@@ -1,0 +1,47 @@
+{
+  "description": "Verifies a recaptcha token with the google recaptcha service",
+  "label": "Verify Recaptcha token",
+  "category": "Forms",
+  "icon": { "color": "Orange", "name": "DataJumpUpIcon" },
+  "options": [
+    {
+      "meta": {
+        "type": "Text"
+      },
+      "name": "secret",
+      "label": "Secret",
+      "info": "The site secret obtained from the google site for this recaptcha service"
+    },
+    {
+      "meta": {
+        "type": "Text"
+      },
+      "name": "token",
+      "label": "Recaptcha token",
+      "info": "The token obtained from the client side form"
+    },
+    {
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Object"
+        }
+      },
+      "name": "response",
+      "label": "The result object",
+      "info": ""
+    },
+    {
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Boolean"
+        }
+      },
+      "name": "success",
+      "label": "Success",
+      "info": ""
+    }
+  ],
+  "yields": "NONE"
+}

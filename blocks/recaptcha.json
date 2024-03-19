@@ -1,0 +1,5 @@
+{
+  "dependencies": [],
+  "functions": ["verifyRecaptcha 1.0"],
+  "includes": []
+}
